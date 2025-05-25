@@ -13,7 +13,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
   const texts = [
-    "Passionate MERN Stack Developer",
+    "MERN Stack Developer",
     "Full Stack Web Developer", 
     "React.js Specialist",
     "Node.js Developer"
@@ -76,7 +76,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* 3D Profile Image with Mouse Movement */}
-        <div className="mb-8 flex justify-center">
+        <div className="mb-8 flex justify-center mt-6 sm:mt-0">
           <div 
             className="relative group cursor-pointer"
             style={{
@@ -85,7 +85,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
           >
             <div className="w-40 h-40 rounded-full bg-gradient-to-r from-purple-400 to-blue-400 p-1 transform group-hover:scale-110 transition-all duration-500">
               <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center text-white text-6xl font-bold">
-                TV
+                TM
               </div>
             </div>
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-400 to-blue-400 blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
@@ -115,7 +115,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ darkMode }) => {
           <p className={`text-lg md:text-xl max-w-3xl mx-auto leading-relaxed ${
             darkMode ? 'text-gray-400' : 'text-gray-600'
           } animate-fade-in delay-300`}>
-            Passionate MERN Stack Developer with hands-on experience in building responsive 
+            Full Stack Developer with hands-on experience in building responsive 
             and secure web applications using MongoDB, Express.js, React.js, and Node.js.
           </p>
 
