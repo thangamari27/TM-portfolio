@@ -41,7 +41,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       description: 'A full-stack food ordering platform allowing users to browse, order, and track meals from local restaurants. Built with React.js and Tailwind CSS, it features a user-friendly UI, secure authentication, real-time order updates, and admin controls.',
       image: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Node.js', 'MySQL'],
-      liveUrl: '#',
+      liveUrl: 'https://foodiehub-klzr.onrender.com/',
       githubUrl: 'https://github.com/thangamari27/foodiehub'
     }
   ];
