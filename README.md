@@ -38,6 +38,7 @@ Welcome to **TM-Portfolio** – a modern, responsive portfolio to showcase my sk
 
 ## 📁 Project Structure
 
+```
 TM-portfolio/
 ├── public/
 │ ├── favicon.ico
@@ -54,7 +55,7 @@ TM-portfolio/
 ├── index.html
 ├── package.json
 └── README.md
-
+```
 
 ## Installation
 
@@ -62,7 +63,7 @@ To get started with the project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/thangamari27/TM-portfolio.git
    ```
 
 2. Navigate to the project directory:
