@@ -1,87 +1,96 @@
-Welcome to My Project: TM-Portfolio
-Hey there! 👋
-This is my personal portfolio project made with using modern web tools like React, TypeScript, Tailwind CSS, and shadcn-ui.
-Here’s everything you need to know to explore, edit, and run this project.
+# TM-Portfolio: Full Stack Developer Portfolio
 
-🔗 Project Live URL
-You can check the live version here:
-👉 https://lovable.dev/projects/03b37ea1-f64c-4862-bc5c-ecb080f42545
+Welcome to **TM-Portfolio** – a modern, responsive portfolio to showcase my skills as a **Full Stack Developer**. This project is built using the latest web technologies including **React**, **TypeScript**, **Tailwind CSS**, **shadcn-ui**, and **Vite**. It highlights my technical expertise across front-end and back-end, clean UI design, and overall development workflow.
 
-🛠 How to Edit This Project
-✅ Method 1: Edit with Lovable
-You can directly edit the project using Lovable. Just open the link above, and you can start making changes in the browser itself.
-No setup needed!
-Changes you make here will be saved automatically.
+---
 
-✅ Method 2: Work on Your Local Computer
-If you want to work using your own editor (like VS Code), follow these steps:
+## Table of Contents
 
-Clone the Project
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
 
-git clone <YOUR_GIT_URL>  
-Go into the Project Folder
+---
 
-cd <YOUR_PROJECT_NAME>  
-Install All the Project Files
-(Make sure you have Node.js and npm installed first)
+## 🚀 Features
+- Fully responsive and modern design
+- Smooth animations and scroll effects
+- 3D character integration using Spline
+- Reusable components and clean code structure
+- Sidebar navigation with active state tracking
+- Resume download functionality
+- Built with performance in mind
 
-npm install  
-Start the Project
+---
 
-npm run dev  
-This will open your project in the browser and auto-refresh when you make changes.
+## 🛠 Tech Stack
+- **React** – UI library for building dynamic interfaces
+- **TypeScript** – Type-safe JavaScript
+- **Tailwind CSS** – Utility-first CSS framework
+- **shadcn/ui** – Pre-styled UI components
+- **Vite** – Fast development and build tool
+- **Node.js & npm** – Dependency management
 
-✅ Method 3: Edit on GitHub
-You can also edit the files directly in GitHub:
+---
 
-Go to the file you want to change.
+## 📁 Project Structure
 
-Click the ✏ "Edit" button on the top right.
+TM-portfolio/
+├── public/
+│ ├── favicon.ico
+│ ├── fullstack_developer.pdf
+│ └── placeholder.svg
+├── src/
+│ ├── components/
+│ ├── hooks/
+│ ├── lib/
+│ ├── pages/
+│ ├── App.tsx
+│ └── main.tsx
+├── tailwind.config.ts
+├── index.html
+├── package.json
+└── README.md
 
-Make your changes and click Commit.
 
-✅ Method 4: Use GitHub Codespaces
-If you don't want to set up anything on your computer:
+## Installation
 
-Go to the project on GitHub.
+To get started with the project, follow these steps:
 
-Click the Code button.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   ```
 
-Choose the Codespaces tab.
+2. Navigate to the project directory:
+   ```bash
+   cd TM-portfolio
+   ```
 
-Click New Codespace to open an online editor.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start development server:
+    ```bash
+   npm run dev
+   ```
 
-You can edit and save your changes there easily!
+## Usage
 
-🧰 Tech Stack Used
-This project is built using:
+Open your browser and navigate to ` http://localhost:8080/` to view the portfolio.
 
-React
+## Contact
 
-TypeScript
+For inquiries or feedback, feel free to reach out:
 
-Tailwind CSS
+- **Email**: thangamathangamari616@gmail.com
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/thanga-mari-03334126b/)
+- **Portfolio**: [Your Portfolio Website]https://tm-dev-portfolio.web.app/)
 
-shadcn-ui
+---
 
-Vite (for fast development)
-
-🚀 How to Publish or Share
-If you're using Lovable, you can share your project by:
-
-Clicking on Share → Publish
-
-You’ll get a live URL you can share with anyone.
-
-🌐 Custom Domain
-Want to use your own domain (like myname.dev)?
-
-Go to Project → Settings → Domains
-
-Click Connect Domain
-
-Follow the steps to link your domain
-
-🙌 Thanks for Visiting!
-This is still a work in progress, and I’m learning new things every day.
-Feel free to explore or fork the project and build your own!
+Feel free to customize the content, especially the contact information and links, to suit your personal details and preferences. This structure will help potential employers or collaborators understand your project and how to interact with it effectively.
