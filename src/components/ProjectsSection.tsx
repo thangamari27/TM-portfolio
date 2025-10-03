@@ -13,9 +13,9 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ darkMode }) => {
       title: 'College Admission Portal',
       description: 'A comprehensive student admission portal built with Node.js and MySQL. Features include student registration, application tracking, admin dashboard, and secure data management with Bootstrap for responsive design.',
       image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644',
-      technologies: ['Node.js', 'MySQL', 'Bootstrap', 'Express.js'],
+      technologies: ['React js,'Node.js', 'MySQL', 'Express.js'],
       liveUrl: '#',
-      githubUrl: 'https://github.com/thangamari27/College-admission-portal'
+      githubUrl: 'https://github.com/thangamari27/eduportal'
     },
     {
       id: 2,
